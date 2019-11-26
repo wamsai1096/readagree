@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="readagree_dialog_title">Tips</string>
+
+    <string name="readagree_dialog_content">Welcome to %1$s!\n\nPlease read and understand %3$s before you use %2$s.\n\nBy clicking \"AGREE\" you are reading and agree to all the terms.</string>
+    <string name="readagree_dialog_agree">AGREE</string>
+    <string name="readagree_dialog_disagree">Disagree and quit APP</string>
+
+    <string name="readagree_dialog_and">&#160;and&#160;</string>
+    <string name="readagree_dialog_comma">,</string>
+
+</resources>

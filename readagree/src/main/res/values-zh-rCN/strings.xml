@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="readagree_dialog_title">提示</string>
+
+    <string name="readagree_dialog_content">欢迎使用%1$s！\n\n在您使用%2$s前，请您认真阅读并了解%3$s。\n\n点击“同意”即表示您已阅读并同意全部条款。</string>
+    <string name="readagree_dialog_agree">同意</string>
+    <string name="readagree_dialog_disagree">不同意并退出APP</string>
+
+    <string name="readagree_dialog_and">和</string>
+    <string name="readagree_dialog_comma"></string>
+</resources>

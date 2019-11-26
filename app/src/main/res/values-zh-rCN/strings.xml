@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">阅读并同意 例子</string>
+
+    <string name="privacy_policy">《隐私政策》</string>
+    <string name="user_agreement">《用户协议》</string>
+    <string name="another_agreement">《其他协议》</string>
+
+</resources>
