@@ -93,7 +93,7 @@ configurations {
 
 def siteUrl = project.websiteUrl
 def gitUrl = project.vcsUrl
-def libName = project.name
+def libName = project.bintrayLibName
 
 group = project.publishedGroupId
 version = project.versionName

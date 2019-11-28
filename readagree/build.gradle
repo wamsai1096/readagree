@@ -45,7 +45,7 @@ ext {
 
     // jcenter
     bintrayRepo = 'AndroidInfras'
-    name = 'readagree'
+    bintrayLibName = 'readagree'
     libraryDesc = 'Show read and agree Privacy Policy and Terms & Conditions for your apps.'
     publishedGroupId = 'io.wamsai.readagree'
     versionName = VERSION_NAME
