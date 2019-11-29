@@ -19,6 +19,9 @@
 Gradle:
 ```
 implementation 'io.wamsai.readagree:readagree:0.0.3'
+
+// 非AndroidX，用下面的：
+implementation 'io.wamsai.readagree:readagree-support:0.0.3'
 ```
 
 ## Use

@@ -21,6 +21,9 @@
 Gradle:
 ```
 implementation 'io.wamsai.readagree:readagree:0.0.3'
+
+// if u not use AndroidX, use the following
+implementation 'io.wamsai.readagree:readagree-support:0.0.3'
 ```
 
 ## Use
