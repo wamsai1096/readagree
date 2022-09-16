@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.wamsai1096'
 
 ext {
     VERSION_CODE = 3
@@ -64,4 +67,4 @@ ext {
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
 }
 
-apply from: 'upload-bintray.gradle'
+//apply from: 'upload-bintray.gradle'

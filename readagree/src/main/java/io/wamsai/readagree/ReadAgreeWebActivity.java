@@ -86,7 +86,7 @@ public class ReadAgreeWebActivity extends AppCompatActivity {
         webSettings.setDefaultTextEncodingName("UTF-8");
         webSettings.setSupportZoom(true);
         webSettings.setBuiltInZoomControls(true);
-        webSettings.setUseWideViewPort(true);
+        webSettings.setUseWideViewPort(false);
         webSettings.setLoadWithOverviewMode(true);
 
 
