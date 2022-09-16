@@ -16,12 +16,21 @@
 
 ## Download
 
-Gradle:
-```
-implementation 'io.wamsai.readagree:readagree:0.0.3'
+Step 1. 将 JitPack 存储库添加到您的构建文件
 
-// 非AndroidX，用下面的：
-implementation 'io.wamsai.readagree:readagree-support:0.0.3'
+将它添加到存储库末尾的根目录 `settings.gradle` 中：
+```
+dependencyResolutionManagement {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Step 2. 添加依赖
+```
+implementation 'com.github.wamsai1096:readagree:v0.0.3'
 ```
 
 ## Use

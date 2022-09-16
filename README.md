@@ -18,12 +18,21 @@
 
 ## Download
 
-Gradle:
-```
-implementation 'io.wamsai.readagree:readagree:0.0.3'
+Step 1. Add the JitPack repository to your build file
 
-// if u not use AndroidX, use the following
-implementation 'io.wamsai.readagree:readagree-support:0.0.3'
+Add it in your root `settings.gradle` at the end of repositories:
+```
+dependencyResolutionManagement {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Step 2. Add the dependency
+```
+implementation 'com.github.wamsai1096:readagree:v0.0.3'
 ```
 
 ## Use
