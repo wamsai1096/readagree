@@ -4,8 +4,8 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.wamsai1096'
 
 ext {
-    VERSION_CODE = 3
-    VERSION_NAME = "0.0.3"
+    VERSION_CODE = 4
+    VERSION_NAME = "0.0.4"
 }
 
 android {
