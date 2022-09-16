@@ -125,7 +125,7 @@ public class AboutActivity extends AppCompatActivity {
 
 
 ## Contact
-<wamsai@qq.com>
+<wamsai1096@qq.com>
 
 ## [Change Log][changeLog.md]
 

@@ -29,22 +29,23 @@ implementation 'io.wamsai.readagree:readagree-support:0.0.3'
 Application init:
 ```
 // I18N
-HashMap<Locale, String> anotherLocale = new HashMap<>();
-anotherLocale.put(Locale.ENGLISH, "https://github.com/");
-anotherLocale.put(Locale.SIMPLIFIED_CHINESE, "http://www.baidu.com");
+//HashMap<Locale, String> anotherLocale = new HashMap<>();
+//anotherLocale.put(Locale.ENGLISH, "https://github.com/");
+//anotherLocale.put(Locale.SIMPLIFIED_CHINESE, "http://www.baidu.com"); // 网址的隐私协议
 
 IReadAgree readAgree = ReadAgree.config(this)
         .addReadAgreeItem(new PrivacyPolicy(
                 R.string.privacy_policy,
-                "privacy_policy.html"))
+                "privacy_policy.html"))  // assets 文件夹下的 privacy_policy.html
         .addReadAgreeItem(new TermsConditions(
                 R.string.user_agreement,
-                "terms_and_conditions.html"))
+                "terms_and_conditions.html")) // assets 文件夹下的 terms_and_conditions.html 也支持网页的写法如 "https://www.baidu.com"
+        /* // 国际化使用
         .addReadAgreeItem(new BaseReadAgreeItem(
                 Consts.KEY_ANOTHER_AGREEMENT,
                 R.string.another_agreement,
                 anotherLocale.get(Locale.ENGLISH), // DEFAULT ENGLISH
-                anotherLocale))
+                anotherLocale))*/
         .install();
 ```
 
