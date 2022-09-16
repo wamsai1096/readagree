@@ -1,6 +1,6 @@
 # ReadAgree
 
-[![auc][aucSvg]][auc] [![api][apiSvg]][api] [![build][buildSvg]][build] [![License][licenseSvg]][license]
+[![][jitpackSvg]][jitpack] [![][androidciSvg]][androidci] [![api][apiSvg]][api] [![build][buildSvg]][build] [![License][licenseSvg]][license]
 
 ## About
 
@@ -145,14 +145,23 @@ public class AboutActivity extends AppCompatActivity {
 
 [changeLog.md]: https://github.com/WAMsAI/readagree/blob/master/CHANGELOG.md
 
-[blogSvg]: 
-[blog]: 
+[blogSvg]:
+[blog]:
 
-[jianshuSvg]: 
-[jianshu]: 
+[jianshuSvg]:
+[jianshu]:
 
-[weiboSvg]: 
-[weibo]: 
+[weiboSvg]:
+[weibo]:
 
-[qqgroupSvg]: 
-[qqgroup]: 
+[qqgroupSvg]:
+[qqgroup]:
+
+[androidciSvg]:https://github.com/wamsai/readagree/workflows/Android%20CI/badge.svg?branch=master
+
+[androidci]: https://github.com/wamsai1096/readagree
+
+[jitpackSvg]: https://jitpack.io/v/wamsai1096/readagree.svg
+
+[jitpack]: https://jitpack.io/#wamsai1096/readagree
+
