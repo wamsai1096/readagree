@@ -128,20 +128,24 @@ public class AboutActivity extends AppCompatActivity {
 
 ## Sample
 
-[Donwload](https://github.com/WAMsAI/readagree.git) and Run. 
+[Donwload](https://github.com/WAMsAI/readagree.git) and Run.
 
 ![](sample.gif)
 
-
 ## Contact
+
 <wamsai1096@qq.com>
+
+[![][contactGithubSvg]][contactGithub]
 
 ## [Change Log][changeLog.md]
 
 [aucSvg]: https://img.shields.io/badge/ReadAgree-v0.0.3-brightgreen
+
 [auc]: https://github.com/WAMsAI/readagree
 
 [apiSvg]: https://img.shields.io/badge/API-19+-brightgreen.svg
+
 [api]: https://android-arsenal.com/api?level=19
 
 [buildSvg]: https://img.shields.io/badge/build-null-red
@@ -155,7 +159,7 @@ public class AboutActivity extends AppCompatActivity {
 
 [changeLog.md]: https://github.com/WAMsAI/readagree/blob/master/CHANGELOG.md
 
-[blogSvg]: 
+[blogSvg]:
 [blog]:
 
 [jianshuSvg]:
@@ -166,6 +170,10 @@ public class AboutActivity extends AppCompatActivity {
 
 [qqgroupSvg]:
 [qqgroup]:
+
+[contactGithubSvg]: https://img.shields.io/badge/GitHub-wamsai1096-blue.svg?logo=github
+
+[contactGithub]: https://github.com/wamsai1096
 
 [androidciSvg]:https://github.com/wamsai/readagree/workflows/Android%20CI/badge.svg?branch=master
 
