@@ -141,22 +141,25 @@ public class AboutActivity extends AppCompatActivity {
 
 [aucSvg]: https://img.shields.io/badge/ReadAgree-v0.0.3-brightgreen
 
-[auc]: https://github.com/WAMsAI/readagree
+[auc]: https://github.com/wamsai1096/readagree
 
 [apiSvg]: https://img.shields.io/badge/API-19+-brightgreen.svg
 
 [api]: https://android-arsenal.com/api?level=19
 
 [buildSvg]: https://img.shields.io/badge/build-null-red
+
 [build]: https://travis-ci.org/WAMsAI/readagree
 
 [licenseSvg]: https://img.shields.io/badge/License-Apache--2.0-brightgreen.svg
+
 [license]: https://github.com/WAMsAI/readagree/blob/master/LICENSE
 
-[readme]: https://github.com/WAMsAI/readagree
-[readme-cn]: https://github.com/WAMsAI/readagree/blob/master/README-CN.md
+[readme]: https://github.com/wamsai1096/readagree
 
-[changeLog.md]: https://github.com/WAMsAI/readagree/blob/master/CHANGELOG.md
+[readme-cn]: https://github.com/wamsai1096/readagree/blob/master/README-CN.md
+
+[changeLog.md]: https://github.com/wamsai1096/readagree/blob/master/CHANGELOG.md
 
 [blogSvg]:
 [blog]:
