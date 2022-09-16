@@ -30,7 +30,7 @@ dependencyResolutionManagement {
 
 Step 2. 添加依赖
 ```
-implementation 'com.github.wamsai1096:readagree:v0.0.3'
+implementation 'com.github.wamsai1096:readagree:v0.0.4'
 ```
 
 ## Use
